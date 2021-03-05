@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to right, #29323c, #485563);
+    color: rgb(255, 255, 255);
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+
+.heading, .sub-head
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #2c3238 ;
+
+}
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+
+.dice{
+  
+   text-align: center;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn{
+    
+margin: 20px;
+padding: 15px;
+background-color: #9c060c;
+border: none;
+border-radius: 5px;
+font-size: 1rem;
+color: #ffffff;
+font-family: 'RocknRoll One', sans-serif;
+
+
+}
+
+
+.btn:hover{
+    background-color: #9e1419;
+    text-shadow: 2px 2px #2c3238 ;
+}
+
+
